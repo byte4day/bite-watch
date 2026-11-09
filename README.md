@@ -384,13 +384,11 @@ MIT license.
 
 ## Installation
 
-Bite Watch is distributed as a Markdown skill.
+Bite Watch is an [Agent Skill](https://agentskills.io/) (`SKILL.md`). Install it on Claude Code, Codex, Cursor, or OpenCode via that host's standard skill path.
 
 Copy or install `SKILL.md` into the skill location supported by your agent runtime.
 
-The exact installation path depends on the host environment.
-
-The core skill does not require a dedicated backend. Search and browser/computer actions are delegated to capabilities exposed by the host.
+The core skill does not require a dedicated backend. Search and browser/computer actions use the host's browser or computer-use tools.
 
 ---
 

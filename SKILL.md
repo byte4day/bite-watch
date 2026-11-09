@@ -1,9 +1,17 @@
 ---
 name: bite-watch
-description: Personal media discovery and browser-execution skill that understands what the user wants to watch, uses relevant conversation context and preferences, searches supported platforms for fresh matching content, selects a high-confidence result, and opens it through the host agent's browser or computer-use capability.
+description: >-
+  Watch discovery and open-in-browser: find something to watch from intent and
+  conversation context, then open it via the host browser or computer-use.
+  Use when the user wants something to watch, is eating/chilling, or asks to
+  open YouTube, Netflix, or similar.
 ---
 
 # Bite Watch
+
+## Compatibility
+
+Agent Skill ([agentskills.io](https://agentskills.io/)) for Claude Code, Codex, Cursor, and OpenCode via standard skill paths (`.agents/skills/`, `.claude/skills/`, `~/.agents/skills/`, `~/.cursor/skills/`, and host equivalents). Search and playback use the host's browser or computer-use tools; this skill does not ship its own browser.
 
 ## Mission
 
